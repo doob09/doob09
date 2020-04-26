@@ -752,18 +752,6 @@ footer .icon  img {
     padding: 2rem 2rem 1rem 1rem;
 }
 
-/* .navbar-links li a:hover{
-    color:var(--primary);
-}
-.navbar-links li a:focus:active
-{
-   border-bottom:2px solid var(--primary);
-} */
-
-/* .navbar-links li a:active{
-    border-bottom:2px solid var(--primary);
-} */
-
 .navbar-links li:hover{
     background-color: transparent;
 }
@@ -821,6 +809,9 @@ footer .icon  img {
 @media screen and (min-width:1200px){
     h2{
         font-size: 6rem;
+    }
+    p{
+        font-size:1.6rem ;
     }
 .nav-bar{
         padding-top: 1rem;
