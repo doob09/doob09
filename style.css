@@ -250,7 +250,7 @@ textarea{
 
 /* resize the avatar to fit small screen */
 #welcome .image-box img{
-    /* width: 70%; */
+    width: 70%;
     min-width: 270px;
     border: 1.5rem solid rgba(0, 0, 0, 0.863);
     background-color:#302e34 ;
