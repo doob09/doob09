@@ -179,12 +179,7 @@ textarea{
     transition: all .5s linear; 
 }
 
-.navbar-links ul {
-    /* display: none; */
-    /* flex-direction: column;
-    width: 100%; */
-   
-  }
+
 /* hover efftect */
   .navbar-links li a:hover{
     color:var(--primary);
@@ -255,8 +250,8 @@ textarea{
 
 /* resize the avatar to fit small screen */
 #welcome .image-box img{
-    width: 80%;
-    min-width: 270px;
+    width: 90%;
+    /* min-width: 270px; */
     border: 1.5rem solid rgba(0, 0, 0, 0.863);
     background-color:#302e34 ;
     border-radius:50%;
@@ -585,12 +580,10 @@ footer .icon  img {
 
 
 /*  ! size for  phone plus*/
-@media screen and  (min-width:420px ){
+@media screen and  (min-width:360px ){
    
     #welcome .image-box img{
-        /* width: 100%;  */
-        width: 300px;
-        
+        width: 70%; 
     }
     #welcome .text-box .leading{
         letter-spacing: .8rem;
@@ -619,6 +612,10 @@ footer .icon  img {
 #welcome .image-box{
     grid-column-start: 2;
     grid-column-end:3;
+}
+
+#welcome .image-box img{
+    width: 100%; 
 }
 
 #porfolio .about-me{
@@ -654,6 +651,10 @@ text-align:left;
     }
     #welcome .image-box{
         margin-top: 3rem;
+    }
+
+    #welcome .image-box img{
+        width: 80%; 
     }
 
     #porfolio {
