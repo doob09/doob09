@@ -584,8 +584,8 @@ footer .icon  img {
 @media screen and  (min-width:360px ){
    
     #welcome .image-box img{
-    min-width: 270px;
-    height: 270px;
+    /* min-width: 270px;
+    height: 270px; */
     }
     #welcome .text-box .leading{
         letter-spacing: .8rem;
