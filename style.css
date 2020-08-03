@@ -252,7 +252,7 @@ textarea{
 #welcome .image-box img{
     /* width: 70%; */
     min-width: 270px;
-    height: 370px;
+    height: 270px;
     border: 1.5rem solid rgba(0, 0, 0, 0.863);
     background-color:#302e34 ;
     border-radius:50%;
@@ -302,7 +302,7 @@ textarea{
 
 #porfolio .image-left img{
     min-width: 270px;
-    height: 250px;
+    height: 200px;
   
 }
 
@@ -598,7 +598,6 @@ footer .icon  img {
     grid-template-columns:   1fr 1fr;
     margin-top: 2rem;
 }
-
 
 #welcome .text-box{
     grid-row-start: 1;
