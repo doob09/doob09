@@ -250,8 +250,8 @@ textarea{
 
 /* resize the avatar to fit small screen */
 #welcome .image-box img{
-    width: 90%;
-    /* min-width: 270px; */
+    /* width: 70%; */
+    min-width: 270px;
     border: 1.5rem solid rgba(0, 0, 0, 0.863);
     background-color:#302e34 ;
     border-radius:50%;
@@ -583,7 +583,7 @@ footer .icon  img {
 @media screen and  (min-width:360px ){
    
     #welcome .image-box img{
-        width: 70%; 
+        width: 50%; 
     }
     #welcome .text-box .leading{
         letter-spacing: .8rem;
